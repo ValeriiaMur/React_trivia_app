@@ -28,7 +28,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Additional features that I want to add:
 
-Unfortunately, I didnt have a lot of time for this project but I had a lot of fun! I know that this small app needs a lot of refactoring and here are only the few features I would like to add to it:
+Unfortunately, I didnt have a lot of time to add all features that I wanted but I had a lot of fun in the process! I know that this small app needs a lot of refactoring and here are only the few things I would add/change:
 
 - Use Redux or Context API to manage state
 - Connect a database, add data persistence
