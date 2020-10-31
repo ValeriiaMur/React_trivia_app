@@ -1,0 +1,41 @@
+.start-page {
+    background-color:#859ef6;
+    width: 100%;
+    height: 100vh;
+    color:  #f6f5fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    font-size:1.4rem;
+}
+
+.start-button{
+    margin-top: 25px;
+    padding: 1rem 2rem;
+    background-color: #50D8A5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #50D8A5;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-img{
+    height: 60%;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

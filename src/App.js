@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {BrowserRouter as Router,
+        Switch,
+        Route
+} from "react-router-dom";
+
+//components
+import Trivia from "./components/Trivia";
+import Start from "./components/Start";
+import Finish from "./components/Finish"
+
 
 function App() {
+
+  // const handleChanges = e => {
+  //   setStats({player: e.target.value});
+  // };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <Switch>
+        <Route exact path ="/" component = {Start}/>
+        <Route path ="/trivia" component = {Trivia}/>
+        <Route path ="/finish" component = {Finish}/>
+      </Switch>
+      </Router>
     </div>
   );
 }

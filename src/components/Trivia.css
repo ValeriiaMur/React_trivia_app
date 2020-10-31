@@ -1,0 +1,124 @@
+.main{
+    height: 100vh;
+}
+
+.trivia-menu{
+    display:flex;
+    flex-direction: row;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#859ef6;
+    text-transform: uppercase;
+    color:  #f6f5fa;
+    height: 10vh;
+}
+
+.questionCount{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.score{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.trivia {
+    background-color: #282c34;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: left;
+}
+
+.question{
+    padding-bottom: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #E2DCDC;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* answer buttons */
+.answers-button {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+    
+.answer-button__default {
+    width: 100%;
+    margin: 5px;
+    padding: 1rem 2rem;
+    background-color: #9268FF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #9268FF;
+}
+    
+.answer-button__correct {
+      width: 100%;
+      margin: 5px;
+      padding: 1rem 2rem;
+      background-color:  #23D9B7;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 2px solid  #23D9B7;
+      
+}
+    
+.answer-button__incorrect {
+      width: 100%;
+      margin: 5px;
+      padding: 1rem 2rem;
+      background-color:  #F20732;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 2px solid  #F20732; 
+}
+
+/* button to go to the next question */
+.next-button {
+    width: 50%;
+    margin: 5px;
+    padding: 1rem 2rem;
+    background-color: #F1F9FF;
+    color: #A16CFF;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #9268FF;
+    margin: 5% 0;
+}
+    
+.next-button:focus {
+    outline: 1px solid #9268FF;
+    outline-offset: -4px;
+ }
+    
+.next-button:focus, .next-button:hover {
+    background: #5630B7;
+    border: 2px solid #5630B7;
+    color: #F1F9FF;
+}
+    

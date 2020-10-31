@@ -1,0 +1,36 @@
+.finish-page {
+    background-color:#f7e8ee;
+    width: 100%;
+    height: 100vh;
+    color: #859ef6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    font-size:1.4rem;
+}
+
+.finishImg{
+    height: 60%;
+}
+
+.again-button{
+    margin-top: 25px;
+    padding: 1rem 2rem;
+    background-color: #50D8A5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #50D8A5;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.score{
+    font-size: 2rem;
+    font-weight: 500;
+}
