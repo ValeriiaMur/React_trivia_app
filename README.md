@@ -1,5 +1,7 @@
 # How to use this app
 
+You can see this app in action here: https://react-trivia-app-tandem.herokuapp.com/. Have fun!
+
 This app was created using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
