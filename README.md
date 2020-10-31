@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Additional features that I want to add:
+## Additional features that I would love to add:
 
 Unfortunately, I didnt have a lot of time to add all features that I wanted but I had a lot of fun in the process! I know that this small app needs a lot of refactoring and here are only the few things I would add/change:
 
@@ -26,4 +26,7 @@ Unfortunately, I didnt have a lot of time to add all features that I wanted but 
 - display a different message on the final page depending on the score
 - I love designing apps so I would spend more time to make it pretty
 
+![img](start.png)
+
+#### Start
 
