@@ -26,7 +26,11 @@ Unfortunately, I didnt have a lot of time to add all features that I wanted but 
 - display a different message on the final page depending on the score
 - I love designing apps so I would spend more time to make it pretty
 
-![img](start.png)
-
 #### Start
+![start_game](start.png)
 
+#### Trivia
+![trivia_game](game.png)
+
+#### Results
+![trivia_results](finish.png)
