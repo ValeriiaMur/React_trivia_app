@@ -25,3 +25,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+## Additional features that I want to add:
+
+Unfortunately, I didnt have a lot of time for this project but I had a lot of fun! I know that this small app needs a lot of refactoring anf here are only the few things I would add to it:
+# Use Redux or Context API to manage state
+#
