@@ -13,10 +13,6 @@ import Finish from "./components/Finish"
 
 function App() {
 
-  // const handleChanges = e => {
-  //   setStats({player: e.target.value});
-  // };
-
   return (
     <div className="App">
       <Router>
