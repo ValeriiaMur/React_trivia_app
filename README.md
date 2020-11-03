@@ -7,6 +7,10 @@ Have fun!
 
 In the project directory, you can run:
 
+### `npm i`
+
+Then:
+
 ### `npm start`
 
 Runs the app in the development mode.\
