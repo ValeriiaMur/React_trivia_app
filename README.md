@@ -3,6 +3,8 @@
 You can see this app in action here: https://react-trivia-app-tandem.herokuapp.com/. 
 Have fun!
 
+![start_game](trivia.png)
+
 ## How to use this app
 
 In the project directory, you can run:
